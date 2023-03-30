@@ -24,3 +24,11 @@ for num in enumerate(lista_numeros):
     indice = num[0]
     valor = num[1]
     print(f'el indice es: {indice} y el valor es: {valor}')
+    
+#recorriendo usando un else
+for numero in lista_numeros:
+    print(f"ejecutamos el ultimo bucle, valor actual{numero}")
+else:
+    print("el bucle termino")
+    
+#todo lo anterior funciona exactamente igual para tuplas
